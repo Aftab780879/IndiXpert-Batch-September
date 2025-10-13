@@ -24,7 +24,6 @@ int divide=0;
 divide=a/b;
 printf("divide : %d",divide);
 }
-
 int main()
 {
     int first,second,number;
