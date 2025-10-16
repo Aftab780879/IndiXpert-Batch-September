@@ -4,7 +4,7 @@ int Number_Entry(int number[],int size)
 {
     for(int i=0;i<size;i++)
     {
-        printf("\nplease enter number %d: ",i+1);
+        printf("please enter number %d: ",i+1);
         scanf("%d",&number[i]);
     }
 }
@@ -13,7 +13,7 @@ int Menu()
     int choice;
     printf("\n\n******MENU******\n");
     printf("1.Delete Last Entry\n");
-    printf("\n2.View Records");
+    printf("2.View Records\n");
     printf("3.Exit\n");
     printf("Please Enter Your Choice: ");
     scanf("%d",&choice);
@@ -23,7 +23,7 @@ int View_Records(int number[],int size)
 {
     if(size>0)
     {
-        printf("RECORDS : \n");
+        printf("\nRECORDS : ");
         for(int i=0;i<size;i++)
         {
         printf("\n%d",number[i]);
